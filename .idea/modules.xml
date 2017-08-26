@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Promos.iml" filepath="$PROJECT_DIR$/Promos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databasehelperlibrary/databasehelperlibrary.iml" filepath="$PROJECT_DIR$/databasehelperlibrary/databasehelperlibrary.iml" />
+    </modules>
+  </component>
+</project>

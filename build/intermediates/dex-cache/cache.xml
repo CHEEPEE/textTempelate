@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\android projects\Promos\databasehelperlibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d59619544977c22ff9af99cee2fc29f5d18a010a">
+        <dex dex="D:\android projects\Promos\app\build\intermediates\pre-dexed\debug\classes_8ef1f0b633cf4c58c2f4148b8cf6fec325aa78da.jar" />
+    </item>
+
+</items>

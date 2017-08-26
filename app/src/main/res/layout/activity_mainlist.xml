@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    tools:context="kejilaboratory.com.promos.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actionbar"
+
+        >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:title="Text Templates"
+        app:titleTextAppearance="@style/ToobarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        />
+    </android.support.design.widget.AppBarLayout>
+    <ListView
+        android:layout_below="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/promlist_view"
+        android:divider="@color/white"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+    <LinearLayout
+
+        android:id="@+id/add_promo"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/border_top"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:background="?selectableItemBackgroundBorderless"
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_black_24dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="Add Promo"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
